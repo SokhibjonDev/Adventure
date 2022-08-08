@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: url(../images/forest.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.prew {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  color: #fff;
+  font-family: "Roboto", "serif";
+  margin-top: 44%;
+  margin-left: 92%;
+  background: rgb(103, 21, 21);
+  width: 150px;
+  padding: 10px 45px;
+  transform: translateX(154px);
+  transition: 1s;
+  z-index: 999999999999999999;
+  position: absolute;
+}
+.block {
+  background: url(../images/obsidian.webp);
+  background-repeat: repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 98;
+  bottom: 100px;
+  width: 1920px;
+  height: 80px;
+  overflow: hidden;
+}
+.person {
+  transform: translateY(985px);
+}
+
+.person1 {
+  position: absolute;
+  left: 200px;
+  z-index: 98;
+  height: 230px;
+  object-fit: contain;
+  bottom: 133px;
+}
+.heart {
+  width: 30px;
+  right: 0;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  margin-left: 92%;
+  margin-top: 5px;
+  position: absolute;
+}
+.coin p {
+  color: gold;
+  margin-right: 10px;
+  font-size: 22px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.enemy {
+  position: absolute;
+  left: 1500px;
+  bottom: 190px;
+  z-index: 99;
+  transform: rotateY(180deg) scale(1.5) translateY(17px);
+  width: 230px;
+  height: 330px;
+}
+.enemy1 {
+  position: absolute;
+  left: 1500px;
+  transform: rotateY(180deg) scale(1.5) translateY(35px);
+  width: 300px;
+  height: 230px;
+  bottom: 200px;
+  z-index: 99;
+}
